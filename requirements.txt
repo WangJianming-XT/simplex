@@ -1,0 +1,24 @@
+# 核心运行时依赖
+numpy
+scipy
+nano-vectordb
+tiktoken
+aioboto3
+aiohttp
+openai
+tenacity
+pydantic
+nltk
+psutil
+tqdm
+xxhash
+
+# 评估模块依赖（evaluate/simcse/）
+torch
+transformers
+scikit-learn
+accelerate
+packaging
+
+# 测试依赖
+requests

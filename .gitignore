@@ -1,3 +1,8 @@
+/my_config.py
+.DS_Store
+caches/
+datasets/
+.vscode/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -173,9 +178,8 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Cursor  
-#  Cursor is an AI-powered code editor.`.cursorignore` specifies files/directories to 
-#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
-#  refer to https://docs.cursor.com/context/ignore-files
-.cursorignore
-.cursorindexingignore
+# web-ui
+web-ui/backend/settings.json    
+web-ui/backend/hyperrag_cache/
+web-ui/backend/uploads/
+web-ui/backend/files.db
